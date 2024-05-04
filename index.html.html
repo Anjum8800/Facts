@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India & The World - Interesting Facts, Science, Medicine, Wastage & News</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Explore India & The World</h1>
+        <p>Unearthing the Fascinating: Interesting Facts, Science, Medicine, Wastage & News</p>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search Topics...">
+            <button onclick="searchContent()">Search</button>
+        </div>
+    </header>
+    <main>
+        <section class="segment">
+            <h2>Interesting Facts</h2>
+            <p id="interesting-facts-content">
+                Here, you'll discover captivating facts about India and the world, igniting your curiosity and expanding your knowledge base. Stay tuned for intriguing updates!
+            </p>
+            <button class="read-more" onclick="displayMore('interesting-facts')">Read More</button>
+        </section>
+        <section class="segment">
+            <h2>Science</h2>
+            <p id="science-content">
+                Delve into the marvels of science! We'll explore groundbreaking discoveries, fascinating phenomena, and the wonders of the natural world.
+            </p>
+            <button class="read-more" onclick="displayMore('science')">Read More</button>
+        </section>
+        <section class="segment">
+            <h2>Medicine</h2>
+            <p id="medicine-content">
+                Explore the latest advancements in medicine, healthcare trends, and valuable insights on maintaining a healthy lifestyle.
+            </p>
+            <button class="read-more" onclick="displayMore('medicine')">Read More</button>
+        </section>
+        <section class="segment">
+            <h2>Wastage in India</h2>
+            <p id="wastage-content">
+                Learn about the challenges and solutions related to waste management in India. Gain knowledge on reducing waste and promoting sustainable practices.
+            </p>
+            <button class="read-more" onclick="displayMore('wastage')">Read More</section>
+        <section class="segment">
+            <h2>Countries News</h2>
+            <p id="countries-news-content">
+                Stay abreast of current events from around the globe. We'll curate news snippets from various countries, keeping you informed.
+            </p>
+            <button class="read-more" onclick="displayMore('countries-news')">Read More</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Explore India & The World</p>
+    </footer>
+</body>
+</html>
